@@ -1,0 +1,93 @@
+
+# CommonStyle
+
+> 全局样式
+
+```less
+@color_line: #ddd;
+@color_bgColor: #eee;
+@color_primary: #1e2230;
+@color_text_hint: #999999;
+
+@color_f4f4f4: #f4f4f4;
+@color_1e2230: #1e2230;
+@color_ff0002: #ff0002;
+@color_00cf55: #00cf55;
+@color_1195fe: #1195fe;
+@color_ff5812: #ff5812;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+html, body, :global(#root) {
+  height: 100%;
+  background-color: @color_bgColor;
+  overflow: hidden;
+}
+
+input::-webkit-input-placeholder {
+  color: @color_text_hint;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: @color_text_hint;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: @color_text_hint;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: @color_text_hint;
+}
+
+/** default style **/
+
+.content_center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-single {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn_margin {
+  margin: 40px 32px 32px 32px;
+}
+
+.btn_full {
+  font-size: 32px;
+  border-radius: 0;
+  line-height: 76px;
+}
+
+/** custom ant mobile style  **/
+
+:global(.am-list-item .am-input-label) {
+  color: #666;
+}
+
+:global(.am-pull-to-refresh-indicator) {
+  font-size: 24px;
+}
+```

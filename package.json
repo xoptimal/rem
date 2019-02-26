@@ -1,0 +1,43 @@
+{
+  "name": "x-rem",
+  "version": "0.0.6",
+  "description": "基于ANTD-DVA-UMI的OOTB-CMW.",
+  "bin": {
+    "rem": "cli.js"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev website",
+    "docs:build": "vuepress build website"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clipboardy": "^1.2.3",
+    "debug": "^3.1.0",
+    "execa": "^1.0.0",
+    "inquirer": "^6.2.1",
+    "mkdirp": "^0.5.1",
+    "semver": "^5.5.1",
+    "yargs-parser": "^11.0.0",
+    "yeoman-generator": "^3.1.1"
+  },
+  "devDependencies": {
+    "np": "^3.0.4",
+    "vuepress": "^0.14.8"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xoptimal/rem"
+  },
+  "homepage": "https://xoptimal.github.io/rem/",
+  "authors": [
+    "Freddie <xoptimal@163.com> (https://github.com/xoptimal)"
+  ],
+  "bugs": {
+    "url": "https://github.com/xoptimal/rem/issues"
+  },
+  "files": [
+    "cli.js",
+    "lib"
+  ]
+}
