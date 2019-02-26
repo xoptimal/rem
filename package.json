@@ -1,7 +1,7 @@
 {
   "name": "x-rem",
   "version": "0.0.6",
-  "description": "基于ANTD-DVA-UMI的OOTB-CMW.",
+  "description": "基于UMI-BLOCK的开箱即用",
   "bin": {
     "rem": "cli.js"
   },
