@@ -6,6 +6,7 @@
     "rem": "cli.js"
   },
   "scripts": {
+    "dev": "umi dev",
     "docs:dev": "vuepress dev website",
     "docs:build": "vuepress build website"
   },
@@ -18,11 +19,14 @@
     "mkdirp": "^0.5.1",
     "semver": "^5.5.1",
     "yargs-parser": "^11.0.0",
-    "yeoman-generator": "^3.1.1"
+    "yeoman-generator": "^3.1.1",
+    "react": ">=16.0.0",
   },
   "devDependencies": {
     "np": "^3.0.4",
-    "vuepress": "^0.14.8"
+    "vuepress": "^0.14.8",
+    "umi": "^2.0.0",
+    "umi-plugin-block-dev": "^1.0.0"
   },
   "license": "MIT",
   "repository": {
@@ -39,5 +43,6 @@
   "files": [
     "cli.js",
     "lib"
-  ]
+  ],
+  "license": "MIT"
 }
