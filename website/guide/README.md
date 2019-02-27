@@ -23,7 +23,7 @@
     $ mkdir myapp && cd myapp
     $ yarn create umi
     $ yarn install
-    $ umi block add https://github.com/xoptimal/umi-block-rem
+    $ umi block add https://github.com/xoptimal/rem
 ```
     
 **接下来请移步[Config]()模块完成配置后就可以正常的使用Rem啦~**
