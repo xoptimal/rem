@@ -67,6 +67,6 @@
 
 ## Licence
 
-[MIT License](https://github.com/xoptimal/umi-block-rem/blob/master/LICENSE)
+[MIT License](https://github.com/xoptimal/rem/blob/master/LICENSE)
     
 

@@ -21,79 +21,79 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "eb8ec40e5f0b315cebadb8db4c0991e6"
+    "revision": "e1359a124b050b12952f523e65a0e7f1"
   },
   {
     "url": "api/components/ListViewComponent.html",
-    "revision": "4d0d630538fd37734354b091fbe6e733"
+    "revision": "1d1b7545bf36ffb0326c0d423fa7c10a"
   },
   {
     "url": "api/components/TableComponent.html",
-    "revision": "0901d18b75ea6c76a858b5699d65cccd"
+    "revision": "1a4eb61571a3848221d0f5bab31f0f12"
   },
   {
     "url": "api/forms/MobileForm.html",
-    "revision": "64fb59b97b45dfcc0d78a03184f8071d"
+    "revision": "0ca780100a99ac33409c155157ee1380"
   },
   {
     "url": "api/forms/WebForm.html",
-    "revision": "bd1b4b4a2b2281e9f53dbf8f420a7a52"
+    "revision": "90b9b5fdade62de03f3157febf237be4"
   },
   {
     "url": "api/index.html",
-    "revision": "fde7c8b3072fea11a4707c2a78e159d1"
+    "revision": "2ecc4c5942530aea912a3f93370373d5"
   },
   {
     "url": "api/modals/CommonModal.html",
-    "revision": "321f83eab89238b1118702042cd08ea6"
+    "revision": "1ad15cbe2b2f6165d17d17b8a3a4ac7b"
   },
   {
     "url": "api/styles/CommonStyle.html",
-    "revision": "c657b3242b0c44f817d78e267d4bd295"
+    "revision": "7739c576286b1594d42c01bdb95ad742"
   },
   {
     "url": "api/utils/CommonHelper.html",
-    "revision": "6f18f97c2375344feeca5bcdc212d3a7"
+    "revision": "a94085043af52f81d2e02e43963f1ad4"
   },
   {
     "url": "api/utils/ExRouteHelper.html",
-    "revision": "5eb17a3e0d5887575faaa1cc7757476d"
+    "revision": "b6a43877d3f7091aeeff01c00762993a"
   },
   {
     "url": "api/utils/ExToastHelper.html",
-    "revision": "c641f07d7d24aa44d037107b3df7bf4e"
+    "revision": "7bf2bd7e5d8fba67cb4844e7366144c5"
   },
   {
     "url": "api/utils/InputHelper.html",
-    "revision": "54e9ff66518e2070fe13e9175ca89b55"
+    "revision": "000cb7592783bfc532cfae55e8714630"
   },
   {
     "url": "api/utils/RequestHelper.html",
-    "revision": "dbd020225fecb194fb31002dcc1237e7"
+    "revision": "9739a387d50a3dd27060c50127cd99c2"
   },
   {
     "url": "api/views/DescriptionView.html",
-    "revision": "9bfb54fe1bb84178a7758b26e6669f53"
+    "revision": "7234288094e7f57a698a5c3aafd6b3db"
   },
   {
     "url": "api/views/ExDrawer.html",
-    "revision": "71124b03d93fbeb345188f98ba2d440b"
+    "revision": "ef50d37e528fdf2631a0cb04f956fe5d"
   },
   {
     "url": "api/views/ExListView.html",
-    "revision": "5e9f2bedc88a7d84eb3051bcdfb82d13"
+    "revision": "78d95e75508174eadace96ea540659dd"
   },
   {
     "url": "api/views/ExModal.html",
-    "revision": "21b128208c5d3cdf18c8c47e0d2cf5de"
+    "revision": "8f0c5b50248f731e5ef78a2ae315d3e8"
   },
   {
     "url": "api/views/NavLayout.html",
-    "revision": "8e5d360fd474ae339992779b327ac4b3"
+    "revision": "1a921674dd2174a1dab2332398acf79e"
   },
   {
     "url": "api/views/NetLayout.html",
-    "revision": "cd313102aee27a99166030d14ef97ae3"
+    "revision": "9caa4902d2defe47b6640fa4bf58d39c"
   },
   {
     "url": "assets/css/0.styles.3e9a43d3.css",
@@ -144,7 +144,7 @@ self.__precacheManifest = [
     "revision": "92d094ac21b13977b51923dd0c229943"
   },
   {
-    "url": "assets/js/2.3d367515.js",
+    "url": "assets/js/2.2cc3f25f.js",
     "revision": "834f2da9e05519a1b3157907543f6cf1"
   },
   {
@@ -160,8 +160,8 @@ self.__precacheManifest = [
     "revision": "490fae4511fb27f70270994bf10ba551"
   },
   {
-    "url": "assets/js/23.19b0feca.js",
-    "revision": "f73fb774a92879f31c8c1989a19280c5"
+    "url": "assets/js/23.0e4bf0ad.js",
+    "revision": "511f510302cd51d8bf1f629557e40a9a"
   },
   {
     "url": "assets/js/24.897297e4.js",
@@ -196,27 +196,27 @@ self.__precacheManifest = [
     "revision": "f499362cc9e21ceacd82b10f19e5caa3"
   },
   {
-    "url": "assets/js/app.787a7245.js",
-    "revision": "d4b6f5b7f75581ff21e0e06fe2d2b755"
+    "url": "assets/js/app.d35fda73.js",
+    "revision": "dca4964f7ccd3f30252af524294ed03b"
   },
   {
     "url": "config/index.html",
-    "revision": "41d55a56bee02ef4e036bccc8d749a90"
+    "revision": "dcf58f4154f1b77ae07d52ad87db1a37"
   },
   {
     "url": "guide/index.html",
-    "revision": "586fb85da93b42ffb4bb7399d112c8f4"
+    "revision": "dd36578ad094fdbe27f563c0d5d01cfc"
   },
   {
     "url": "index.html",
-    "revision": "9f877a210801653784fc388cce7aae59"
+    "revision": "3533a4a2e75ae8b6e26b0082097805e4"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 addEventListener('message', event => {
-  const replyPort = event.ports[0];
-  const message = event.data;
+  const replyPort = event.ports[0]
+  const message = event.data
   if (replyPort && message && message.type === 'skip-waiting') {
     event.waitUntil(
       self.skipWaiting().then(
@@ -225,4 +225,4 @@ addEventListener('message', event => {
       )
     )
   }
-});
+})
