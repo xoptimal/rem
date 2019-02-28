@@ -17,16 +17,27 @@ module.exports = {
         sidebar: {
             '/api/': [
                 {
-                    title: "Common",
+                    title: "Component",
                     collapsable: false, // 可选的, 默认值是 true,
                     children: [
                         '',
                         'components/TableComponent',
                         'components/ListViewComponent',
+                    ]
+                },
+                {
+                    title: "Form",
+                    collapsable: false, // 可选的, 默认值是 true,
+                    children: [
                         'forms/WebForm',
                         'forms/MobileForm',
+                    ]
+                },
+                {
+                    title: "Modals",
+                    collapsable: false, // 可选的, 默认值是 true,
+                    children: [
                         'modals/CommonModal',
-                        'styles/CommonStyle',
                     ]
                 },
                 {
@@ -50,6 +61,13 @@ module.exports = {
                         'utils/ExToastHelper',
                         'utils/InputHelper',
                         'utils/RequestHelper',
+                    ]
+                },
+                {
+                    title: "Styles",
+                    collapsable: false, // 可选的, 默认值是 true,
+                    children: [
+                        'styles/CommonStyle',
                     ]
                 },
             ],
