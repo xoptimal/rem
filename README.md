@@ -21,11 +21,8 @@ Rem基于UMI-BLOCK, 提供一系列的支持, 让你在开发的过程中, 更�
     $ umi block add https://github.com/xoptimal/rem
 ```
     
-::: tip
 **接下来请移步至[Config](https://xoptimal.github.io/rem/config/)模块完成配置后就可以正常的使用Rem啦~**
-:::
-  
-   
+
 ## License
 
 [MIT License](https://github.com/xoptimal/rem/blob/master/LICENSE)
