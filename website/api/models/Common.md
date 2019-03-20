@@ -1,4 +1,4 @@
-# CommonModal
+# CommonModel
 
 > 通用网络请求Control
 

@@ -34,10 +34,10 @@ module.exports = {
                     ]
                 },
                 {
-                    title: "Modals",
+                    title: "Models",
                     collapsable: false, // 可选的, 默认值是 true,
                     children: [
-                        'modals/CommonModal',
+                        'models/Common',
                     ]
                 },
                 {

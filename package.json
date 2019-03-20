@@ -1,9 +1,9 @@
 {
-  "name": "x-rem",
+  "name": "rem",
   "version": "0.0.6",
   "description": "基于UMI-BLOCK的开箱即用",
-  "bin": {
-    "rem": "cli.js"
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
   },
   "scripts": {
     "dev": "umi dev",
@@ -11,16 +11,14 @@
     "docs:build": "vuepress build website"
   },
   "dependencies": {
-    "react": ">=16.0.0",
-    "current-device": "^0.8.0"
+    "current-device": "^0.8.0",
+    "react": ">=16.0.0"
   },
   "devDependencies": {
-    "np": "^3.0.4",
-    "vuepress": "^0.14.8",
     "umi": "^2.0.0",
-    "umi-plugin-block-dev": "^1.0.0"
+    "umi-plugin-block-dev": "^1.0.0",
+    "vuepress": "^0.14.10"
   },
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/xoptimal/rem"
@@ -33,9 +31,5 @@
   "bugs": {
     "url": "https://github.com/xoptimal/rem/issues"
   },
-  "files": [
-    "cli.js",
-    "lib"
-  ],
   "license": "MIT"
 }
