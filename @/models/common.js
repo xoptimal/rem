@@ -1,8 +1,6 @@
-
-import {exFetch} from '../support/utils/FetchHelper';
+import request from '../support/utils/request';
 
 export default {
-
     namespace: 'common',
 
     state: {
@@ -15,25 +13,24 @@ export default {
     subscriptions: {},
 
     effects: {
-
-        /**
-         * 查询请求
-         * */
-            * onRefresh({payload}, {call, put, select}) {
-            yield call(exFetch, payload);
+        *onRefresh({ payload }, { call, put, select }) {
+            try {
+                return yield call(request, payload);
+            } catch (e) {
+                return Promise.reject(e);
+            }
         },
-
-        /**
-         * 提交请求
-         * */
-            * onHandle({payload}, {call, put, select}) {
-            yield call(exFetch, payload);
+        *onHandle({ payload }, { call, put, select }) {
+            try {
+                return yield call(request, payload);
+            } catch (e) {
+                return Promise.reject(e);
+            }
         },
 
         /**
          * 重置数据
-         * */
-            * resetData(_, {put, select}) {
+         * */ *resetData(_, { put, select }) {
             //sessionStorage.clear();
             //localStorage.clear();
             //yield put(routerRedux.replace('/'));
@@ -41,22 +38,26 @@ export default {
     },
 
     reducers: {
-
         /**
          * 保存数据
          * */
         save(state, action) {
-            return {...state, ...action.payload};
+            return { ...state, ...action.payload };
         },
 
         /**
-         * 更新请求失败数据集
+         * 更新请求状态(成功/失败)
          * */
-        updateRequestFails(state, {payload: {response, result}}) {
-            const {requestFails} = state;
+        updateRequestStated(
+            state,
+            {
+                payload: { url, isSuccess },
+            }
+        ) {
+            const { requestFails } = state;
             let index = -1;
             for (let i = 0; i < requestFails.length; i++) {
-                if (requestFails[i].path == response.path) {
+                if (requestFails[i].url == url) {
                     index = i;
                     break;
                 }
@@ -64,8 +65,8 @@ export default {
             if (index > -1) {
                 requestFails.splice(index, 1);
             }
-            if (!result) requestFails.push(response);
-            return {...state, requestFails};
+            if (!isSuccess) requestFails.push({ url });
+            return { ...state, requestFails };
         },
     },
 };

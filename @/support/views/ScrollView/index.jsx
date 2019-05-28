@@ -2,14 +2,9 @@ import React from 'react';
 import styles from './index.less';
 
 export default function ScrollView(props) {
+  return <div className={styles.content}>{props.children}</div>;
 
-    return (
-        <div className={styles.content}>
-            {props.children}
-        </div>
-    );
-
-    /*state = {
+  /*state = {
       height: document.documentElement.clientHeight * 3 / 4,
     };
 
@@ -30,5 +25,4 @@ export default function ScrollView(props) {
         </div>
       );
     }*/
-
 }
